@@ -26,7 +26,7 @@ const CurrencyConverter = ({
             <div className="input-amount">
               <p>Input Amount</p>
               <CurrencyTextBox
-                inputType="text"
+                inputType="number"
                 inputValue={inputValue}
                 name="inputValue"
                 handleChange={handleChange}
@@ -52,7 +52,7 @@ const CurrencyConverter = ({
             <div className="output-amount">
               <p>Output Amount</p>
               <CurrencyTextBox
-                inputType="text"
+                inputType="number"
                 inputValue={outputValue}
                 name="outputValue"
                 handleChange={handleChange}
